@@ -1,6 +1,7 @@
 
 body {
-  background-color: #E8ECEF;
+  background-color: #e8ecef;
+  background-image: url(http://www.transparenttextures.com/patterns/low-contrast-linen.png);
 }
 
 .centered {
@@ -17,4 +18,17 @@ body {
 
 .image{
   size: 200px;
+}
+
+.display-3{
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.container{
+  display: block;
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+  height: 400px;
+  width: 800px;
 }
